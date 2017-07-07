@@ -1,0 +1,24 @@
+// Specify overrides (theme and/or base variables etc.)
+// See https://vuetifyjs.com/quick-start
+$theme := {
+  primary: #4353ff
+  accent: #ce93d8
+  secondary: #424242
+  info: #0D47A1
+  warning: #ffb300
+  error: #B71C1C
+  success: #2E7D32
+}
+$grid-breakpoints := {
+  xs: 0
+  sm: 600px
+  md: 1024px
+  lg: (1140px - 16px) // Desktop gets a 16dp reduction
+  xl: (1270px - 16px) // https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints
+}
+// Material Design - https://material.io/guidelines/style/color.html#color-usability
+// ============================================================
+
+
+// Import Vuetify styling
+@require '~vuetify/src/stylus/main.styl'
